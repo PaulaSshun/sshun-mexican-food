@@ -9,6 +9,7 @@ height: 100%;
 width:100%;
 font-family: 'Mali', cursive;
 font-size: 20px;
+cursor: url("chiles.png"), auto;
 }
 #home {
   margin:auto;
@@ -16,18 +17,18 @@ font-size: 20px;
 }
 .frase{
   text-align: center;
-  cursor: url("chiles.png"), auto;
   font-style: italic;
   font-size: 22px;
 }
 p {
   text-align: center;
-  cursor: url("chiles.png"), auto;
   font-size: 22px;
+  padding: 10px;
 }
 h1,h2{ text-align: center;
   cursor: url("chiles.png"), auto;
 font-style: bold;
+padding: 10px;
 }
 .alineado {
   text-align: center;
@@ -74,6 +75,9 @@ header nav a:hover{
   margin: auto;
   display: block;
 }
+#aboutmyprocess, #aboutme{
+  padding: 10px;
+}
 table{
   border-radius: 10px;
   border: 2px solid black;
@@ -81,6 +85,19 @@ table{
   margin: auto;
   border-spacing: 10px;
   text-align: left;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container{
+  padding: 20px;
+  margin: 10px;
+  justify-content: space-around;
+}
+.row {
+  align-items: flex-start;
 }
 /*pie de pagina*/
 .footer {
